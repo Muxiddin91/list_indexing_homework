@@ -6,4 +6,8 @@ def main(list1):
     Returns:
         list: return answer
     """
-    return
+    ans = list1[len(list1)-1]
+    return ans
+print(main([1,2,3,4]))
+'''sss = [1,2,3]
+print(len(sss))'''
